@@ -17,7 +17,7 @@ const studentSchema = mongoose.Schema({
     },
 
     rollNo:{
-         type:Number,
+         type: Number,
          required:true,
          unique:true,
          minLength: [6, "Name mast be 3 characters"],
@@ -34,8 +34,8 @@ const studentSchema = mongoose.Schema({
         type:String,
         required:true,
     },
-    class:{
-        type:Number,
+    Studentclass:{
+        type: Number,
         required:true,
         minLength: [0, "class can not Nagative"],
         maxLength: [10, "class is not more then 10"],
