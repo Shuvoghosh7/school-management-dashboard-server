@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(cors());
 
 //routes
-const studentRoute=require('./Routes/schoolManagement.routes')
+const studentRoute=require('./Routes/student.routes')
 
 
 app.get("/", (req, res) => {

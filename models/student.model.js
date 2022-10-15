@@ -17,10 +17,10 @@ const studentSchema = mongoose.Schema({
     },
 
     rollNo:{
-         type: Number,
+         type: String,
          required:true,
          unique:true,
-         minLength: [6, "Name mast be 3 characters"],
+         minLength: [6, "Name mast be 4 characters"],
     },
     admitionDate:{
         type:String,
